@@ -1,0 +1,53 @@
+body{
+	background-color: whitesmoke;
+	font-family: "Arial";
+	font-size: 14px;
+}
+section{
+	background-color: white;
+	min-height: 550px;
+}
+section #main{
+	background-image: url("../media/main.png");
+	text-align: center;
+	padding: 1% 0 0 0;
+
+}
+section table{
+	width: 100%;
+}
+#profile{
+	padding-top: 1%;
+	vertical-align: top;
+}
+#main .search span{
+	background-color: #333;	
+	color:#fff;
+	padding: 4%;
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+}
+#main .search input[type=text]{
+	width: 98%;
+	height: 30px;
+	border:1px solid grey;
+	text-align: center;
+}
+#main .search input[type=submit]{
+	width: 30%;
+	padding: 4%;
+	font-size: 14px;
+	color: white;
+	background-color:  	#4169E1;
+	border:none;
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
+}
+footer{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 0;
+}
+.error{
+	color: red;
+}
